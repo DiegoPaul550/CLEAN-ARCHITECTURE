@@ -1,5 +1,5 @@
 import { Customer } from "../../domain/entities/Customer";
-import { CustomerRepository } from "../../domain/repositories/CustomerRepository";
+import { CustomerRepository } from "../../domain/repositories/ICustomer";
 
 export class CreateCustomer {
 

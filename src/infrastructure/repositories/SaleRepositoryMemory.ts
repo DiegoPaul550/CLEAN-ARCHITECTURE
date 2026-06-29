@@ -1,5 +1,5 @@
 import { Sale } from "../../domain/entities/Sale";
-import { SaleRepository } from "../../domain/repositories/SaleRepository";
+import { SaleRepository } from "../../domain/repositories/ISale";
 
 export class SaleRepositoryMemory
 implements SaleRepository {

@@ -1,4 +1,4 @@
-import { SaleRepository } from "../../domain/repositories/SaleRepository";
+import { SaleRepository } from "../../domain/repositories/ISale";
 
 export class GetSales {
 
