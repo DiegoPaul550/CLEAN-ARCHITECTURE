@@ -1,5 +1,5 @@
 import { Product } from "../../domain/entities/Product";
-import { ProductRepository } from "../../domain/repositories/ProductRepository";
+import { ProductRepository } from "../../domain/repositories/IProduct";
 
 export class CreateProduct {
 

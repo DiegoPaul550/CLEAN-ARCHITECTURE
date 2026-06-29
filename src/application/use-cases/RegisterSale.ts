@@ -1,6 +1,6 @@
-import { ProductRepository } from "../../domain/repositories/ProductRepository";
-import { CustomerRepository } from "../../domain/repositories/CustomerRepository";
-import { SaleRepository } from "../../domain/repositories/SaleRepository";
+import { ProductRepository } from "../../domain/repositories/IProduct";
+import { CustomerRepository } from "../../domain/repositories/ICustomer";
+import { SaleRepository } from "../../domain/repositories/ISale";
 import { Sale } from "../../domain/entities/Sale";
 
 export class RegisterSale {
