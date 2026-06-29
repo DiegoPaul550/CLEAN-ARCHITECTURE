@@ -1,6 +1,6 @@
 export class Product {
 
-    // 1. ATRIBUTOS PRIVADOS (ENCAPSULAMIENTO)
+    // 1. PROPIEDADES O ATRIBUTOS PRIVADOS (ENCAPSULAMIENTO)
 
     // Protegemos el estado interno para que el precio o el stock no puedan 
     // ser modificados directamente desde fuera sin validar las reglas de negocio.
