@@ -1,6 +1,4 @@
 import { Customer } from "../../domain/entities/Customer";
-// NOTA: Recuerda que tras quitar la "I" del archivo físico, este import cambiará a:
-// import { CustomerRepository } from "../../domain/repositories/CustomerRepository";
 import { CustomerRepository } from "../../domain/repositories/ICustomer";
 
 // Representa una acción o intención específica del usuario en el sistema. 
