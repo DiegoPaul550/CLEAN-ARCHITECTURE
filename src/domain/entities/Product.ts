@@ -53,8 +53,9 @@ export class Product {
     }
 
     // 4. MÉTODOS DE ACCESO (GETTERS)
-
-    // Permiten a los Casos de Uso y a la Vista leer el estado del producto sin alterarlo.
+    // Acceso a propiedades privadas: Permiten leer valores de variables 
+    // marcadas como private o protected desde fuera de la clase sin 
+    // exponerlas directamente.
 
     /** Retorna el identificador único del producto. */
     getId(): number {
